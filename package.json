@@ -1,24 +1,17 @@
 {
-  "name": "portfolio-vue",
-  "version": "1.0.0",
-  "description": "Frontend for my Vue portfolio",
-  "main": "index.js",
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sumtwelve/portfolio-vue.git"
-  },
-  "author": "Sumtwelve",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Sumtwelve/portfolio-vue/issues"
-  },
-  "homepage": "https://github.com/Sumtwelve/portfolio-vue#readme",
   "dependencies": {
-    "axios": "^1.6.7",
+    "nuxt": "^3.10.2",
     "vue": "^3.4.19",
-    "vuetify": "^3.5.4"
+    "vue-router": "^4.2.5"
   }
 }
